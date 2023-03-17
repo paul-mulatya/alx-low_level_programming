@@ -12,7 +12,7 @@ int main(void)
 
 	for (i = 97; i < 123; i++)
 		if (i != 101 && i != 113)
-			putcher(i);
-	putcher("\n");
+			putchar(i);
+	putchar('\n');
 	return (0);
 }
