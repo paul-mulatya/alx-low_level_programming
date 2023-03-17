@@ -1,8 +1,7 @@
 #include <stdio.h>
 /**
  * main-prints "Programming is like building a multilingual puzzle
- *
- * Return: always 0 (success)
+ * Return: 0
  */
 int main(void)
 {
