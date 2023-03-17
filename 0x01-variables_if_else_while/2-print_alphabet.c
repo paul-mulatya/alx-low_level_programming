@@ -5,9 +5,11 @@
   */
 int main(void)
 {
-	char alpha;
+	char alpha[26] = "abcdefghijklmnopqrstuvwxyz";
+	int i:
 
-	for (alpha = a; a++)
-		putchar("%c\n", alpha);
+	for (i = 0; i < 26; a++)
+		putchar(alpha[i]);
+	putchar("\n")
 	return (0);
 }
