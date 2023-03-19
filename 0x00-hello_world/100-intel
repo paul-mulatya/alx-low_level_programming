@@ -1,0 +1,2 @@
+#!/bin/bish
+gcc -S $CFILE  
