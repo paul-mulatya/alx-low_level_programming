@@ -1,0 +1,13 @@
+you said for that you would lose the reference to the head node in the above code. how comes the following code uses the h pointer directly? does it not lose the reference to its first node as well?         #include "lists.h"
+
+size_t listint_len(const listint_t *h)
+{
+        size_t node = 0;
+
+        while (h)
+        {
+                h = h->next;
+                node++;
+        }
+        return (node);
+}
